@@ -1,0 +1,66 @@
+
+.theking{
+    display: flex;
+    flex: 1;
+    position: relative;
+    top: 100px;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+a {
+   color: brown;
+   position: relative;
+   bottom: 29px;
+   font-size: 30px;
+   font-style: oblique;
+}
+ul {
+    list-style: none;
+}
+
+img{
+    border:15px solid brown;
+}
+.head{
+    position: relative;
+    left: 1430px;
+    bottom: 165px;
+    border: saddlebrown solid medium;
+    display: flex;
+    flex: 1;
+}
+body{
+    background-color: antiquewhite;
+}
+
+.block{
+    background-color: sandybrown;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+    box-shadow: 5px 10px ;
+    animation-name: block-changes;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    flex: 1;
+    display: flex;
+}
+h1{
+    position: relative;
+    bottom: 100px;
+}
+
+@keyframes block-changes{
+
+  0%{
+    background-color: sandybrown;
+    width: 100px;
+  }
+  100%{
+    background-color: brown;
+    width: 1500px;
+  }
+
+
+}
